@@ -2,7 +2,7 @@
 layout: post
 title: "Don't keep activities"
 author: Angus
-tags: ["Android"]
+tags: ["android"]
 date: "2018-05-06T23:46:37.121Z"
 draft: false
 ---
