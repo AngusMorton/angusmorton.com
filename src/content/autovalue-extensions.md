@@ -5,7 +5,6 @@ author: Angus
 tags: ["android"]
 date: "2018-05-06T23:46:37.121Z"
 draft: false
-image: img/autovalue-extensions.jpg
 ---
 
 [AutoValue](https://github.com/google/auto) is a tool that lets you remove a lot of the boilerplate associated with writing value types in Java. It does this by using an annotation processor to generate a well-behaved, immutable implementation of an abstract class.

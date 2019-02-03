@@ -30,11 +30,11 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Angus Morton',
-  description: 'The professional publishing platform',
+  description: 'Android Development',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://angusmorton.github.io/angusmorton.com',
   showSubscribe: false,
 };
 

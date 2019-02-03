@@ -183,11 +183,6 @@ export interface PageContext {
     slug: string;
   };
   frontmatter: {
-    image: {
-      childImageSharp: {
-        fluid: any;
-      };
-    };
     title: string;
     date: string;
     draft?: boolean;
@@ -347,13 +342,6 @@ export const query = graphql`
         userDate: date(formatString: "D MMMM YYYY")
         date
         tags
-        image {
-          childImageSharp {
-            fluid(maxWidth: 3720) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         author {
           id
           bio
